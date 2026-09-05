@@ -1,11 +1,11 @@
-using CSweet.VideoGame.AgentKit;
+using CrosswiredStudios.VideoGame.AgentKit;
 
 namespace CSweet.Agent.TechnicalArtist.VideoGame;
 
 public sealed class SpecialistAgent : VideoGameSpecialistAgentBase
 {
     public override string AgentId => "com.csweet.video-game-technical-artist";
-    public override string Version => "2.1.0";
+    public override string Version => "2.1.1";
     protected override string RoleKey => "technical-artist";
     protected override string ArtifactTypeKey => "video-game.technical-art-delivery.v1";
     protected override string RolePrompt => "Own asset import pipelines, materials, shaders, rigs, compression, engine readiness, and visual performance validation. Translate visual targets into measurable runtime constraints.";
