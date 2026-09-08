@@ -8,7 +8,7 @@
     "specializationKeys": ["video-game-development", "asset-pipelines", "engine-integration", "visual-performance"]
   },
   "id": "com.csweet.video-game-technical-artist",
-  "name": "Video Game Technical Artist",
+  "name": "Leila Morgan",
   "version": "2.1.1",
   "publisher": { "id": "com.csweet", "name": "C-Sweet" },
   "runtime": {
@@ -83,6 +83,9 @@
   "webAccess": { "mode": "None", "rules": [] },
   "ui": [],
   "catalog": {
+    "imageUrl": "https://raw.githubusercontent.com/CrosswiredStudios/CSweet.Agent.TechnicalArtist.VideoGame/main/assets/branding/portrait-v1.jpg",
+    "companyLogoUrl": "https://raw.githubusercontent.com/CrosswiredStudios/CSweet.Agent.TechnicalArtist.VideoGame/main/assets/branding/csweet-icon.svg",
+    "accentColor": "#66659A",
     "summary": "Owns import pipelines, shaders, materials, rigs, compression, engine readiness, and visual performance.",
     "category": "Creative",
     "role": { "key": "technical-artist", "name": "Video Game Technical Artist" },
