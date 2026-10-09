@@ -16,7 +16,7 @@
   },
   "id": "com.csweet.video-game-technical-artist",
   "name": "Leila Morgan",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "publisher": {
     "id": "com.csweet",
     "name": "C-Sweet"
@@ -476,7 +476,7 @@
       "description": "Planning ceiling for Technical Artist model requests; set this no higher than the selected model's real context window.",
       "minimum": 16000,
       "step": 1000,
-      "defaultValue": 128000
+      "defaultValue": 256000
     },
     {
       "key": "maxOutputTokens",
@@ -487,7 +487,7 @@
       "description": "Budget for each Technical Artist model response, including reasoning. Set this within the selected model and provider's supported limits.",
       "minimum": 1000,
       "step": 1000,
-      "defaultValue": 16000,
+      "defaultValue": 128000,
       "lessThanFieldKey": "maxContextWindowTokens"
     }
   ],
